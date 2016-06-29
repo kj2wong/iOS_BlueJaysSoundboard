@@ -39,6 +39,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="header" width="538" height="145"/>
+        <image name="header" width="538" height="138"/>
     </resources>
 </document>
