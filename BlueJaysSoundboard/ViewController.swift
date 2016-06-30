@@ -31,9 +31,6 @@ class ViewController: UIViewController {
     
     // MARK: Properties
     @IBOutlet weak var randomButton: UIButton!
-    @IBOutlet weak var button1: UIButton!
-    @IBOutlet weak var button2: UIButton!
-    @IBOutlet weak var button3: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
