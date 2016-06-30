@@ -31,6 +31,9 @@ class ViewController: UIViewController {
     
     // MARK: Properties
     @IBOutlet weak var randomButton: UIButton!
+    @IBOutlet weak var button1: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    @IBOutlet weak var button3: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,6 +44,8 @@ class ViewController: UIViewController {
             green:35/255.0,
             blue:85/255.0,
             alpha:1.0)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

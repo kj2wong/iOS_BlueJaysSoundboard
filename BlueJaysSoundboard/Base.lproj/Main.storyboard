@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XDt-jy-ca7">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XDt-jy-ca7">
                                 <rect key="frame" x="20" y="30" width="560" height="204"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="128" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="LId-PC-cqA">
@@ -29,13 +29,13 @@
                                             <constraint firstAttribute="width" secondItem="LId-PC-cqA" secondAttribute="height" multiplier="125:32" id="iqE-tO-IBr"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9Y-JX-ROD">
+                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9Y-JX-ROD">
                                         <rect key="frame" x="0.0" y="164" width="560" height="40"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Ap5-e2-cT1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="13"/>
                                         <state key="normal" title="RANDOM">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
@@ -50,6 +50,98 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Hu3-1h-U01">
+                                <rect key="frame" x="20" y="254" width="560" height="69"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ctu-gZ-NsA">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="69"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="QUU-i6-wQw"/>
+                                            <constraint firstAttribute="height" constant="69" id="Zch-u2-Io8"/>
+                                            <constraint firstAttribute="width" constant="76" id="fkd-1X-u8N"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="gDq-Sb-3dw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="13"/>
+                                        <state key="normal">
+                                            <string key="title">Swing and
+a drive!</string>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="QY2-xN-EOH">
+                                        <rect key="frame" x="242" y="0.0" width="76" height="69"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="76" id="2i5-r5-xd2"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="MVL-a2-XEZ"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="YXc-8I-6q9"/>
+                                            <constraint firstAttribute="height" constant="69" id="lvP-FY-Y5j"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="13"/>
+                                        <state key="normal">
+                                            <string key="title">Get up
+ball!</string>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9ym-2N-QCl">
+                                        <rect key="frame" x="484" y="0.0" width="76" height="69"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="69" id="2r3-Pg-6zg"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="69" id="az7-gz-C3L"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="76" id="m0N-Xs-GAw"/>
+                                            <constraint firstAttribute="width" constant="76" id="vpo-7p-4Kq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="13"/>
+                                        <state key="normal">
+                                            <string key="title">Goodbye,
+home run!</string>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.textAlignment">
+                                                <integer key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.numberOfLines">
+                                                <integer key="value" value="0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9ym-2N-QCl" firstAttribute="height" secondItem="ctu-gZ-NsA" secondAttribute="height" id="AJU-kY-Y9e"/>
+                                    <constraint firstItem="QY2-xN-EOH" firstAttribute="width" secondItem="ctu-gZ-NsA" secondAttribute="width" id="SCU-Mj-kas"/>
+                                    <constraint firstItem="QY2-xN-EOH" firstAttribute="height" secondItem="ctu-gZ-NsA" secondAttribute="height" id="Yf0-H3-N4j"/>
+                                    <constraint firstItem="9ym-2N-QCl" firstAttribute="width" secondItem="ctu-gZ-NsA" secondAttribute="width" id="qNq-Tx-2HY"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -57,10 +149,16 @@
                             <constraint firstAttribute="trailingMargin" secondItem="XDt-jy-ca7" secondAttribute="trailing" id="Rbp-ex-RBm"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZGJ-tw-czk"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jat-xY-2Ae"/>
+                            <constraint firstItem="Hu3-1h-U01" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nzO-Ch-Tu4"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="qYv-U3-rIn"/>
+                            <constraint firstItem="Hu3-1h-U01" firstAttribute="top" secondItem="XDt-jy-ca7" secondAttribute="bottom" constant="20" id="rkF-kX-owW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hu3-1h-U01" secondAttribute="trailing" id="zbX-sF-GuV"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="button1" destination="ctu-gZ-NsA" id="v8A-RA-8Sf"/>
+                        <outlet property="button2" destination="QY2-xN-EOH" id="D1J-R7-Dbe"/>
+                        <outlet property="button3" destination="9ym-2N-QCl" id="ujw-je-qzs"/>
                         <outlet property="randomButton" destination="h9Y-JX-ROD" id="caJ-BB-neU"/>
                     </connections>
                 </viewController>
