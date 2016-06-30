@@ -386,9 +386,16 @@ all, Joe!</string>
                                     <constraint firstItem="CBT-Ow-CPU" firstAttribute="width" secondItem="AsE-lw-XfV" secondAttribute="width" id="sjM-jw-RAN"/>
                                 </constraints>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="8bit" translatesAutoresizingMaskIntoConstraints="NO" id="jxw-J2-Y9D">
+                                <rect key="frame" x="180" y="562" width="240" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jxw-J2-Y9D" secondAttribute="height" multiplier="80:27" id="b4V-AL-47n"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="jxw-J2-Y9D" secondAttribute="trailing" id="AoB-mC-h46"/>
                             <constraint firstItem="U3p-ke-Eoh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ate-FV-Upd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XDt-jy-ca7" secondAttribute="trailing" id="Kd2-fz-zL9"/>
                             <constraint firstItem="U3p-ke-Eoh" firstAttribute="top" secondItem="Hu3-1h-U01" secondAttribute="bottom" constant="20" id="Q2T-s7-KBL"/>
@@ -398,7 +405,9 @@ all, Joe!</string>
                             <constraint firstItem="tl8-Th-mq7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="UgQ-2f-0VG"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZGJ-tw-czk"/>
                             <constraint firstItem="yGe-Um-AnV" firstAttribute="top" secondItem="tl8-Th-mq7" secondAttribute="bottom" constant="20" id="a1Q-kq-1l9"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="jxw-J2-Y9D" secondAttribute="bottom" constant="5" id="eOw-9b-p4X"/>
                             <constraint firstAttribute="trailingMargin" secondItem="U3p-ke-Eoh" secondAttribute="trailing" id="egH-Ki-UjX"/>
+                            <constraint firstItem="jxw-J2-Y9D" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fan-Ig-XoK"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jat-xY-2Ae"/>
                             <constraint firstItem="Hu3-1h-U01" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nzO-Ch-Tu4"/>
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="qYv-U3-rIn"/>
@@ -418,6 +427,7 @@ all, Joe!</string>
         </scene>
     </scenes>
     <resources>
+        <image name="8bit" width="566" height="184"/>
         <image name="header" width="538" height="138"/>
     </resources>
 </document>
