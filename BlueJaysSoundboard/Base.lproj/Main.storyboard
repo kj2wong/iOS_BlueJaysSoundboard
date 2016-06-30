@@ -77,6 +77,9 @@ a drive!</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkP-MR-KqW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="QY2-xN-EOH">
                                         <rect key="frame" x="242" y="0.0" width="76" height="69"/>
@@ -102,6 +105,9 @@ ball!</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5oc-5S-eoO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="9ym-2N-QCl">
                                         <rect key="frame" x="484" y="0.0" width="76" height="69"/>
@@ -127,6 +133,9 @@ home run!</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rwr-up-ny0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -163,6 +172,9 @@ Bat Flip.</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dUw-u5-ZFA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lru-8L-lSD">
                                         <rect key="frame" x="242" y="0.0" width="76" height="69"/>
@@ -188,6 +200,9 @@ song</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CNo-iY-N43"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Jt7-0B-arl">
                                         <rect key="frame" x="484" y="0.0" width="76" height="69"/>
@@ -211,6 +226,9 @@ song</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lb0-xP-YUF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -245,6 +263,9 @@ song</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8d-SS-kW8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0lH-1q-QbN">
                                         <rect key="frame" x="242" y="0.0" width="76" height="69"/>
@@ -268,6 +289,9 @@ song</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYV-f3-RI6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZsC-FH-utm">
                                         <rect key="frame" x="484" y="0.0" width="76" height="69"/>
@@ -291,6 +315,9 @@ song</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DMF-On-lcd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -327,6 +354,9 @@ Bangers</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ccH-oc-wc0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CBT-Ow-CPU">
                                         <rect key="frame" x="242" y="0.0" width="76" height="69"/>
@@ -352,6 +382,9 @@ Blue Jays!</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton11:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RjT-Gf-ySh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="dJ8-fV-7eS">
                                         <rect key="frame" x="484" y="0.0" width="76" height="69"/>
@@ -377,6 +410,9 @@ all, Joe!</string>
                                                 <integer key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="playButton12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BoS-b3-Ps2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

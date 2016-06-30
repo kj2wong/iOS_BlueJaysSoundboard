@@ -71,15 +71,59 @@ class ViewController: UIViewController {
         let audioFileNumber = arc4random_uniform(UInt32(AUDIO_FILE_NAMES.count))
         let audioFile = AUDIO_FILE_NAMES[Int(audioFileNumber)]
         
-        if let audioPlayer = getAVAudioPlayer(audioFile) {
-            avPlayer = audioPlayer
-            avPlayer.prepareToPlay()
-            avPlayer.play()
-        }
+        playAudio(audioFile)
+    }
+    
+    @IBAction func playButton1(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[0])
+    }
+    
+    @IBAction func playButton2(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[1])
+    }
+    
+    @IBAction func playButton3(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[2])
+    }
+    
+    @IBAction func playButton4(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[3])
+    }
+    
+    @IBAction func playButton5(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[4])
+    }
+    
+    @IBAction func playButton6(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[5])
+    }
+    
+    @IBAction func playButton7(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[6])
+    }
+    
+    @IBAction func playButton8(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[7])
+    }
+    
+    @IBAction func playButton9(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[8])
+    }
+    
+    @IBAction func playButton10(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[9])
+    }
+    
+    @IBAction func playButton11(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[10])
+    }
+    
+    @IBAction func playButton12(sender: AnyObject) {
+        playAudio(AUDIO_FILE_NAMES[11])
     }
     
     // Helper function to create an AVAudioPlayer
-    func getAVAudioPlayer(fileName: String) -> AVAudioPlayer? {
+    func playAudio(fileName: String) {
         var audioPlayer: AVAudioPlayer?
         let url = NSURL.fileURLWithPath(
             NSBundle.mainBundle().pathForResource(
@@ -92,7 +136,11 @@ class ViewController: UIViewController {
             print ("Could not create audio player.")
         }
         
-        return audioPlayer
+        if let sound = audioPlayer {
+            avPlayer = sound
+            avPlayer.prepareToPlay()
+            avPlayer.play()
+        }
     }
     
 }
