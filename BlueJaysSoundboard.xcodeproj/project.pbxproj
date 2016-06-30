@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B23FC3F1D24C91400FBC9BF /* 4batFlip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC3E1D24C91400FBC9BF /* 4batFlip.mp3 */; };
+		2B23FC4B1D24CA6C00FBC9BF /* 1swingAndADrive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC401D24CA6C00FBC9BF /* 1swingAndADrive.mp3 */; };
+		2B23FC4C1D24CA6C00FBC9BF /* 2getUpBall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC411D24CA6C00FBC9BF /* 2getUpBall.mp3 */; };
+		2B23FC4D1D24CA6C00FBC9BF /* 3goodbyeHomeRun.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC421D24CA6C00FBC9BF /* 3goodbyeHomeRun.mp3 */; };
+		2B23FC4E1D24CA6C00FBC9BF /* 5encarnacionSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC431D24CA6C00FBC9BF /* 5encarnacionSong.mp3 */; };
+		2B23FC4F1D24CA6C00FBC9BF /* 6kawasaki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC441D24CA6C00FBC9BF /* 6kawasaki.mp3 */; };
+		2B23FC501D24CA6C00FBC9BF /* 7lilLooper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC451D24CA6C00FBC9BF /* 7lilLooper.mp3 */; };
+		2B23FC511D24CA6C00FBC9BF /* 8forgetAboutThisOne.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC461D24CA6C00FBC9BF /* 8forgetAboutThisOne.mp3 */; };
+		2B23FC521D24CA6C00FBC9BF /* 9ballgame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC471D24CA6C00FBC9BF /* 9ballgame.mp3 */; };
+		2B23FC531D24CA6C00FBC9BF /* 10bangers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC481D24CA6C00FBC9BF /* 10bangers.mp3 */; };
+		2B23FC541D24CA6C00FBC9BF /* 11OKBlueJays.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC491D24CA6C00FBC9BF /* 11OKBlueJays.mp3 */; };
+		2B23FC551D24CA6C00FBC9BF /* 12touchEmAllJoe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2B23FC4A1D24CA6C00FBC9BF /* 12touchEmAllJoe.mp3 */; };
 		2B611C461D23103900B952EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B611C451D23103900B952EC /* AppDelegate.swift */; };
 		2B611C481D23103900B952EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B611C471D23103900B952EC /* ViewController.swift */; };
 		2B611C4B1D23103900B952EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B611C491D23103900B952EC /* Main.storyboard */; };
@@ -26,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B23FC3E1D24C91400FBC9BF /* 4batFlip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4batFlip.mp3; path = audio/4batFlip.mp3; sourceTree = "<group>"; };
+		2B23FC401D24CA6C00FBC9BF /* 1swingAndADrive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 1swingAndADrive.mp3; path = audio/1swingAndADrive.mp3; sourceTree = "<group>"; };
+		2B23FC411D24CA6C00FBC9BF /* 2getUpBall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 2getUpBall.mp3; path = audio/2getUpBall.mp3; sourceTree = "<group>"; };
+		2B23FC421D24CA6C00FBC9BF /* 3goodbyeHomeRun.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 3goodbyeHomeRun.mp3; path = audio/3goodbyeHomeRun.mp3; sourceTree = "<group>"; };
+		2B23FC431D24CA6C00FBC9BF /* 5encarnacionSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 5encarnacionSong.mp3; path = audio/5encarnacionSong.mp3; sourceTree = "<group>"; };
+		2B23FC441D24CA6C00FBC9BF /* 6kawasaki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 6kawasaki.mp3; path = audio/6kawasaki.mp3; sourceTree = "<group>"; };
+		2B23FC451D24CA6C00FBC9BF /* 7lilLooper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 7lilLooper.mp3; path = audio/7lilLooper.mp3; sourceTree = "<group>"; };
+		2B23FC461D24CA6C00FBC9BF /* 8forgetAboutThisOne.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 8forgetAboutThisOne.mp3; path = audio/8forgetAboutThisOne.mp3; sourceTree = "<group>"; };
+		2B23FC471D24CA6C00FBC9BF /* 9ballgame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 9ballgame.mp3; path = audio/9ballgame.mp3; sourceTree = "<group>"; };
+		2B23FC481D24CA6C00FBC9BF /* 10bangers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 10bangers.mp3; path = audio/10bangers.mp3; sourceTree = "<group>"; };
+		2B23FC491D24CA6C00FBC9BF /* 11OKBlueJays.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 11OKBlueJays.mp3; path = audio/11OKBlueJays.mp3; sourceTree = "<group>"; };
+		2B23FC4A1D24CA6C00FBC9BF /* 12touchEmAllJoe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 12touchEmAllJoe.mp3; path = audio/12touchEmAllJoe.mp3; sourceTree = "<group>"; };
 		2B611C421D23103900B952EC /* BlueJaysSoundboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueJaysSoundboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B611C451D23103900B952EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B611C471D23103900B952EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B23FC341D246AC600FBC9BF /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				2B23FC401D24CA6C00FBC9BF /* 1swingAndADrive.mp3 */,
+				2B23FC411D24CA6C00FBC9BF /* 2getUpBall.mp3 */,
+				2B23FC421D24CA6C00FBC9BF /* 3goodbyeHomeRun.mp3 */,
+				2B23FC3E1D24C91400FBC9BF /* 4batFlip.mp3 */,
+				2B23FC431D24CA6C00FBC9BF /* 5encarnacionSong.mp3 */,
+				2B23FC441D24CA6C00FBC9BF /* 6kawasaki.mp3 */,
+				2B23FC451D24CA6C00FBC9BF /* 7lilLooper.mp3 */,
+				2B23FC461D24CA6C00FBC9BF /* 8forgetAboutThisOne.mp3 */,
+				2B23FC471D24CA6C00FBC9BF /* 9ballgame.mp3 */,
+				2B23FC481D24CA6C00FBC9BF /* 10bangers.mp3 */,
+				2B23FC491D24CA6C00FBC9BF /* 11OKBlueJays.mp3 */,
+				2B23FC4A1D24CA6C00FBC9BF /* 12touchEmAllJoe.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 		2B611C391D23103900B952EC = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2B611C451D23103900B952EC /* AppDelegate.swift */,
+				2B23FC341D246AC600FBC9BF /* audio */,
 				2B611C471D23103900B952EC /* ViewController.swift */,
 				2B611C491D23103900B952EC /* Main.storyboard */,
 				2B611C4C1D23103900B952EC /* Assets.xcassets */,
@@ -177,9 +221,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B23FC4C1D24CA6C00FBC9BF /* 2getUpBall.mp3 in Resources */,
+				2B23FC511D24CA6C00FBC9BF /* 8forgetAboutThisOne.mp3 in Resources */,
+				2B23FC3F1D24C91400FBC9BF /* 4batFlip.mp3 in Resources */,
+				2B23FC4F1D24CA6C00FBC9BF /* 6kawasaki.mp3 in Resources */,
 				2B611C501D23103900B952EC /* LaunchScreen.storyboard in Resources */,
+				2B23FC551D24CA6C00FBC9BF /* 12touchEmAllJoe.mp3 in Resources */,
+				2B23FC531D24CA6C00FBC9BF /* 10bangers.mp3 in Resources */,
+				2B23FC521D24CA6C00FBC9BF /* 9ballgame.mp3 in Resources */,
 				2B611C4D1D23103900B952EC /* Assets.xcassets in Resources */,
+				2B23FC4D1D24CA6C00FBC9BF /* 3goodbyeHomeRun.mp3 in Resources */,
 				2B611C4B1D23103900B952EC /* Main.storyboard in Resources */,
+				2B23FC4B1D24CA6C00FBC9BF /* 1swingAndADrive.mp3 in Resources */,
+				2B23FC541D24CA6C00FBC9BF /* 11OKBlueJays.mp3 in Resources */,
+				2B23FC4E1D24CA6C00FBC9BF /* 5encarnacionSong.mp3 in Resources */,
+				2B23FC501D24CA6C00FBC9BF /* 7lilLooper.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +446,7 @@
 				2B611C611D23103900B952EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B611C621D23103900B952EC /* Build configuration list for PBXNativeTarget "BlueJaysSoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +455,7 @@
 				2B611C641D23103900B952EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

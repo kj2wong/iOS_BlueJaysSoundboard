@@ -35,6 +35,9 @@
                                         <state key="normal" title="RANDOM">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="playRandomSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YGO-yA-H5G"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -48,6 +51,9 @@
                             <constraint firstItem="XDt-jy-ca7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="qYv-U3-rIn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="randomButton" destination="h9Y-JX-ROD" id="caJ-BB-neU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
