@@ -41,8 +41,6 @@ class ViewController: UIViewController {
             green:35/255.0,
             blue:85/255.0,
             alpha:1.0)
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,6 +72,8 @@ class ViewController: UIViewController {
         playAudio(audioFile)
     }
     
+    // Actions for all 12 buttons
+    // Note that AUDIO_FILE_NAMES is 0 indexed, so button number is +1
     @IBAction func playButton1(sender: AnyObject) {
         playAudio(AUDIO_FILE_NAMES[0])
     }
@@ -122,7 +122,7 @@ class ViewController: UIViewController {
         playAudio(AUDIO_FILE_NAMES[11])
     }
     
-    // Helper function to create an AVAudioPlayer
+    // Helper function to create an AVAudioPlayer and play given file
     func playAudio(fileName: String) {
         var audioPlayer: AVAudioPlayer?
         let url = NSURL.fileURLWithPath(
